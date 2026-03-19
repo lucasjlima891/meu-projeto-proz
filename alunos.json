@@ -1,0 +1,50 @@
+[
+    {
+        "id": "4f4936e6c64d5a4d",
+        "nome": "diogo",
+        "nota1": 0.3,
+        "nota2": 1,
+        "media": 0.65,
+        "situacao": "Reprovado"
+    },
+    {
+        "id": "9f70dcb3753fa469",
+        "nome": "diogo",
+        "nota1": 0.3,
+        "nota2": 1,
+        "media": 0.65,
+        "situacao": "Reprovado"
+    },
+    {
+        "id": "dcf31496e8f515ab",
+        "nome": "diogo",
+        "nota1": 0.3,
+        "nota2": 1,
+        "media": 0.65,
+        "situacao": "Reprovado"
+    },
+    {
+        "id": "769e3c955b4c39d9",
+        "nome": "diogo",
+        "nota1": 3,
+        "nota2": 3,
+        "media": 3,
+        "situacao": "Reprovado"
+    },
+    {
+        "id": "072d79375a8aa987",
+        "nome": "diogo",
+        "nota1": 1,
+        "nota2": 2,
+        "media": 1.5,
+        "situacao": "Reprovado"
+    },
+    {
+        "id": "a10d9a08898b9f84",
+        "nome": "luca",
+        "nota1": 5,
+        "nota2": 2,
+        "media": 3.5,
+        "situacao": "Reprovado"
+    }
+]

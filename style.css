@@ -1,0 +1,138 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background: url("img.jpg")no-repeat center center; background-size: cover;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 180px auto;
+    background: #ffffffc4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* ===== TÍTULO ===== */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== FORMULÁRIOS ===== */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form.coluna {
+    flex-direction: column;
+}
+
+/* ===== INPUTS ===== */
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    min-width: 200px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* ===== BOTÕES PADRÃO ===== */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* cores de botões */
+.btn-primary {
+    background: #007bff;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-success {
+    background: #28a745;
+}
+.btn-success:hover {
+    background: #1e7e34;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+.btn-danger:hover {
+    background: #a71d2a;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== TABELA ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+}
