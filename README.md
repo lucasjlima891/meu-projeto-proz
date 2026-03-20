@@ -5,7 +5,7 @@
 
 # PARA EXECUTAR 
 \n1 . colocar na pasta HTDOCS
-\n2 . iniciar o XAMP
+\n2 . iniciar o XAMP  e iniciar o apache
 \n3 . Acessar localhost
 
 # Funcionalidades
