@@ -1,9 +1,13 @@
 # CRUD de alunos
-
+\nSistema de cadastro de alunos.\n
 # TECNOLOGIA
-PHP / mYsql / css
+\n PHP / mYsql / css
 
 # PARA EXECUTAR 
-colocar na pasta HTDOCS
-iniciar o XAMP
-Acessar localhost
+\n1 . colocar na pasta HTDOCS
+\n2 . iniciar o XAMP
+\n3 . Acessar localhost
+
+# Funcionalidades
+
+Cadastrar alunos, editar, excluir, dar notas e calcular media 
